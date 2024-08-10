@@ -1,0 +1,14 @@
+body, html{
+    color: beige;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    background: linear-gradient( #1a1a1d, #4e4e50); /* Light background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: center;
+}

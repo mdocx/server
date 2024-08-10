@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="robot.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+
+    
+    <div class="login-container glass">
+        
+        <h2>Log in to Server</h2>
+        <form id="loginForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Password">
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
